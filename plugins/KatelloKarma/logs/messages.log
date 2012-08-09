@@ -1,0 +1,53 @@
+ERROR 2012-05-17T13:41:05 supybot Invalid user dictionary file, resetting to empty.
+ERROR 2012-05-17T13:41:05 supybot Exact error: IOError: [Errno 2] No such file or directory: 'conf/users.conf'
+ERROR 2012-05-17T13:41:05 supybot Invalid channel database, resetting to empty.
+ERROR 2012-05-17T13:41:05 supybot Exact error: IOError: [Errno 2] No such file or directory: 'conf/channels.conf'
+WARNING 2012-05-17T13:41:05 supybot Couldn't open ignore database: [Errno 2] No such file or directory: 'conf/ignores.conf'
+INFO 2012-05-17T13:41:05 supybot Shutdown initiated.
+INFO 2012-05-17T13:41:05 supybot Killing Driver objects.
+INFO 2012-05-17T13:41:05 supybot Killing Irc objects.
+INFO 2012-05-17T13:41:05 supybot Shutdown complete.
+INFO 2012-05-21T16:09:16 supybot Shutdown initiated.
+INFO 2012-05-21T16:09:16 supybot Killing Driver objects.
+INFO 2012-05-21T16:09:16 supybot Killing Irc objects.
+INFO 2012-05-21T16:09:16 supybot Shutdown complete.
+INFO 2012-05-21T16:09:27 supybot Shutdown initiated.
+INFO 2012-05-21T16:09:27 supybot Killing Driver objects.
+INFO 2012-05-21T16:09:27 supybot Killing Irc objects.
+INFO 2012-05-21T16:09:27 supybot Shutdown complete.
+INFO 2012-05-21T16:09:47 supybot Shutdown initiated.
+INFO 2012-05-21T16:09:47 supybot Killing Driver objects.
+INFO 2012-05-21T16:09:47 supybot Killing Irc objects.
+INFO 2012-05-21T16:09:47 supybot Shutdown complete.
+CRITICAL 2012-05-21T16:10:18 supybot Beginning test case KatelloKarma.test.ChannelPluginTestCase.testDocumentation
+CRITICAL 2012-05-21T16:10:18 supybot Threads: MainThread
+CRITICAL 2012-05-21T16:10:18 supybot Beginning test case KatelloKarma.test.KarmaTestCase.testClear
+CRITICAL 2012-05-21T16:10:18 supybot Threads: MainThread
+CRITICAL 2012-05-21T16:10:18 supybot Beginning test case KatelloKarma.test.KarmaTestCase.testDocumentation
+CRITICAL 2012-05-21T16:10:18 supybot Threads: MainThread
+CRITICAL 2012-05-21T16:10:18 supybot Beginning test case KatelloKarma.test.KarmaTestCase.testIncreaseKarmaWithNickNotCallingInvalidCommand
+CRITICAL 2012-05-21T16:10:18 supybot Threads: MainThread
+CRITICAL 2012-05-21T16:10:18 supybot Beginning test case KatelloKarma.test.KarmaTestCase.testKarma
+CRITICAL 2012-05-21T16:10:18 supybot Threads: MainThread
+CRITICAL 2012-05-21T16:10:18 supybot Beginning test case KatelloKarma.test.KarmaTestCase.testKarmaMostDisplayConfigurable
+CRITICAL 2012-05-21T16:10:18 supybot Threads: MainThread
+CRITICAL 2012-05-21T16:10:18 supybot Beginning test case KatelloKarma.test.KarmaTestCase.testKarmaOutputConfigurable
+CRITICAL 2012-05-21T16:10:18 supybot Threads: MainThread
+CRITICAL 2012-05-21T16:10:18 supybot Beginning test case KatelloKarma.test.KarmaTestCase.testKarmaRankingDisplayConfigurable
+CRITICAL 2012-05-21T16:10:18 supybot Threads: MainThread
+CRITICAL 2012-05-21T16:10:18 supybot Beginning test case KatelloKarma.test.KarmaTestCase.testMost
+CRITICAL 2012-05-21T16:10:18 supybot Threads: MainThread
+CRITICAL 2012-05-21T16:10:18 supybot Beginning test case KatelloKarma.test.KarmaTestCase.testMultiWordKarma
+CRITICAL 2012-05-21T16:10:18 supybot Threads: MainThread
+CRITICAL 2012-05-21T16:10:18 supybot Beginning test case KatelloKarma.test.KarmaTestCase.testSelfRating
+CRITICAL 2012-05-21T16:10:18 supybot Threads: MainThread
+CRITICAL 2012-05-21T16:10:18 supybot Beginning test case KatelloKarma.test.KarmaTestCase.testSimpleOutput
+CRITICAL 2012-05-21T16:10:18 supybot Threads: MainThread
+CRITICAL 2012-05-21T16:10:18 supybot Beginning test case KatelloKarma.test.KarmaTestCase.testUnaddressedKarma
+CRITICAL 2012-05-21T16:10:18 supybot Threads: MainThread
+CRITICAL 2012-05-21T16:10:18 supybot Beginning test case KatelloKarma.test.PluginTestCase.testDocumentation
+CRITICAL 2012-05-21T16:10:18 supybot Threads: MainThread
+INFO 2012-05-21T16:10:18 supybot Shutdown initiated.
+INFO 2012-05-21T16:10:18 supybot Killing Driver objects.
+INFO 2012-05-21T16:10:18 supybot Killing Irc objects.
+INFO 2012-05-21T16:10:18 supybot Shutdown complete.

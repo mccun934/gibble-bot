@@ -1,0 +1,17 @@
+INFO 2012-08-08T17:16:16 supybot Creating new Irc for freenode.
+INFO 2012-08-08T17:16:16 supybot Connecting to irc.freenode.net:6667.
+INFO 2012-08-08T17:16:17 supybot Loading plugins (connecting to freenode).
+INFO 2012-08-09T00:16:21 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2012-08-09T00:16:21 supybot Flushers flushed and garbage collected.
+INFO 2012-08-09T00:16:21 supybot Irc object for freenode dying.
+INFO 2012-08-09T00:16:21 supybot Driver for Irc object for freenode dying.
+INFO 2012-08-09T00:16:21 supybot Total uptime: 5 seconds.
+INFO 2012-08-09T00:16:21 supybot Total CPU time taken: 0.61 seconds.
+INFO 2012-08-09T00:16:21 supybot No more Irc objects, exiting.
+INFO 2012-08-09T00:16:21 supybot Shutdown initiated.
+INFO 2012-08-09T00:16:21 supybot Killing Driver objects.
+INFO 2012-08-09T00:16:21 supybot Driver for Irc object for freenode dying.
+INFO 2012-08-09T00:16:21 supybot Killing Irc objects.
+INFO 2012-08-09T00:16:21 supybot Writing registry file to gibble.conf
+INFO 2012-08-09T00:16:21 supybot Finished writing registry file.
+INFO 2012-08-09T00:16:21 supybot Shutdown complete.

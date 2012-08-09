@@ -1,0 +1,435 @@
+#katello,<last>,1344470432.13,*** mdemello <mdemello!~Marcelo@189.27.245.15.dynamic.adsl.gvt.net.br> has joined #katello
+#katello,Abhilash,1344000655.72,*** Abhilash <Abhilash!Abhilash@nat/redhat/x-iwmflumjjcjqeefk> has quit IRC (Quit: Abhilash)
+#katello,Acidflash|,1339860179.57,*** Acidflash| <Acidflash|!~acidflash@2a02:750:0:501::150> has parted #katello
+#katello,AshishH,1344430488.89,*** AshishH <AshishH!ahumbe@nat/redhat/x-kqjqnqoqyatutvoj> has quit IRC (Quit: Leaving)
+#katello,AshishH|call,1338829261.45,*** AshishH|call is now known as AshishH
+#katello,DHa230,1340172181.6,*** DHa230 <DHa230!irc2gowebc@123.201.243.4> has quit IRC (Ping timeout: 252 seconds)
+#katello,Da-Geek,1344439347.95,*** Da-Geek <Da-Geek!~Da-Geek@87.84.10.114> has quit IRC (Quit: Leaving)
+#katello,Dha,1341421098.82,*** Dha <Dha!irc2gowebc@123.201.243.2> has quit IRC (Ping timeout: 252 seconds)
+#katello,Dhaval,1340648951.58,*** Dhaval <Dhaval!7bc9f302@gateway/web/freenode/ip.123.201.243.2> has quit IRC (Ping timeout: 245 seconds)
+#katello,Dominic,1344411293.03,*** Dominic <Dominic!~dominic@chaldene.m0dlx.com> has joined #katello
+#katello,Dominic_,1344410061.47,*** Dominic_ is now known as Dominic
+#katello,Evolution,1337910287.64,"*** Evolution <Evolution!~jperrin@centos/admin/Evolution> has parted #katello (""http://www.bit-integrity.com"")"
+#katello,Guest13558,1337990257.04,*** Guest13558 <Guest13558!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Read error: Operation timed out)
+#katello,Guest16926,1339776020.39,*** Guest16926 <Guest16926!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 244 seconds)
+#katello,Guest17188,1340494459.16,*** Guest17188 <Guest17188!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 245 seconds)
+#katello,Guest23082,1342062007.47,*** Guest23082 <Guest23082!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 240 seconds)
+#katello,Guest26011,1339879235.88,*** Guest26011 <Guest26011!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 246 seconds)
+#katello,Guest3706,1342528192.63,*** Guest3706 is now known as segfault923
+#katello,Guest3829,1341633530.77,*** Guest3829 <Guest3829!sg@nat/redhat/x-epqljgfskifumbue> has quit IRC (Ping timeout: 252 seconds)
+#katello,Guest38641,1342112301.17,*** Guest38641 <Guest38641!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 244 seconds)
+#katello,Guest39940,1339728962.37,*** Guest39940 <Guest39940!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 244 seconds)
+#katello,Guest40075,1337886044.74,*** Guest40075 <Guest40075!esm@nat/redhat/x-erazleacvatsijgk> has quit IRC (Ping timeout: 252 seconds)
+#katello,Guest42700,1340146441.02,*** Guest42700 <Guest42700!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 245 seconds)
+#katello,Guest4635,1340317285.0,*** Guest4635 <Guest4635!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 265 seconds)
+#katello,Guest49238,1339871353.58,*** Guest49238 <Guest49238!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 252 seconds)
+#katello,Guest50318,1340201540.38,*** Guest50318 <Guest50318!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 260 seconds)
+#katello,Guest51696,1339791334.2,*** Guest51696 <Guest51696!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 244 seconds)
+#katello,Guest52422,1342703306.32,*** Guest52422 is now known as segfault923
+#katello,Guest52435,1340402325.82,*** Guest52435 <Guest52435!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 248 seconds)
+#katello,Guest55268,1339793008.17,*** Guest55268 <Guest55268!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 244 seconds)
+#katello,Guest58843,1340244998.67,*** Guest58843 <Guest58843!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 240 seconds)
+#katello,Guest59073,1340475532.24,*** Guest59073 <Guest59073!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 244 seconds)
+#katello,Guest59865,1340639667.47,*** Guest59865 <Guest59865!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 246 seconds)
+#katello,Guest70815,1340464894.98,*** Guest70815 <Guest70815!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 265 seconds)
+#katello,Guest72451,1341857698.18,*** Guest72451 <Guest72451!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 244 seconds)
+#katello,Guest72570,1339986069.87,*** Guest72570 <Guest72570!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 248 seconds)
+#katello,Guest74684,1340213870.98,*** Guest74684 <Guest74684!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 265 seconds)
+#katello,Guest74737,1342026561.13,*** Guest74737 <Guest74737!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 246 seconds)
+#katello,Guest78291,1340384730.43,*** Guest78291 <Guest78291!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 260 seconds)
+#katello,Guest79045,1343046482.47,*** Guest79045 is now known as segfault923
+#katello,Guest79608,1340416778.52,*** Guest79608 <Guest79608!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 240 seconds)
+#katello,Guest81515,1341889494.51,*** Guest81515 <Guest81515!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 264 seconds)
+#katello,Guest85921,1340073550.03,*** Guest85921 <Guest85921!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 272 seconds)
+#katello,Guest90820,1340421595.19,*** Guest90820 <Guest90820!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 264 seconds)
+#katello,Loquacious,1341023772.33,*** Loquacious <Loquacious!~Loquacity@ppp121-45-222-149.lns20.cbr1.internode.on.net> has quit IRC (Quit: My life has been a series of emergencies  --Lana Turner)
+#katello,Loquacities,1344448181.37,*** Loquacities <Loquacities!~Loquacity@ppp121-45-207-35.lns20.cbr1.internode.on.net> has joined #katello
+#katello,Loquacity,1343603601.39,*** Loquacity <Loquacity!~Loquacity@110.150.129.125> has quit IRC (Ping timeout: 240 seconds)
+#katello,Loquacity_tablet,1339201140.72,*** Loquacity_tablet <Loquacity_tablet!~Loquacity@1.150.191.150> has quit IRC (Quit: Cya!)
+#katello,MerlinTHP,1340696202.84,*** MerlinTHP <MerlinTHP!~merlinthp@217.135.32.70> has quit IRC (*.net *.split)
+#katello,MerlinTHP_,1342974119.38,*** MerlinTHP_ <MerlinTHP_!~merlinthp@217.135.32.70> has quit IRC (Quit: leaving)
+#katello,NOT-JOMARA,1343155881.6,*** NOT-JOMARA <NOT-JOMARA!42bbe9ca@gateway/web/freenode/ip.66.187.233.202> has quit IRC (Quit: Page closed)
+#katello,Pwuu,1341405402.93,*** Pwuu <Pwuu!555bafd5@gateway/web/freenode/ip.85.91.175.213> has quit IRC (Quit: Page closed)
+#katello,RobertLaptop,1344055026.09,*** RobertLaptop <RobertLaptop!~rmiddle@mail.middleswarth.net> has joined #katello
+#katello,StuartMI,1344365430.32,*** StuartMI <StuartMI!~StuartMI@pdpc/supporter/professional/stuartmi> has quit IRC (Ping timeout: 276 seconds)
+#katello,TommyBotten,1339502161.45,<TommyBotten> thanks :)
+#katello,Vick,1338511069.63,*** Vick <Vick!cb0a2f0f@gateway/web/freenode/ip.203.10.47.15> has quit IRC (Quit: Page closed)
+#katello,aacharya,1337949293.18,*** aacharya <aacharya!spandey@nat/redhat/x-apdtjamrnuvqcuto> has quit IRC (Quit: Leaving)
+#katello,aaron__,1342184311.98,*** aaron__ <aaron__!aweiteka@nat/redhat/x-hoifcimbqerrdfdf> has quit IRC (Quit: Leaving)
+#katello,abradsha,1343147712.51,*** abradsha <abradsha!~Ade@195.246.228.53> has quit IRC (Quit: Too sexy for his shirt)
+#katello,ade_,1344005971.69,*** ade_ <ade_!~Ade@195.246.228.53> has quit IRC (Read error: Operation timed out)
+#katello,ade_b,1344466191.97,*** ade_b <ade_b!~Ade@redhat/adeb> has quit IRC (Quit: Too sexy for his shirt)
+#katello,adprice,1344460285.12,*** adprice is now known as lameprice
+#katello,adprice-,1343999237.37,*** adprice- is now known as adprice
+#katello,adprice-afk,1343655506.54,*** adprice-afk is now known as adprice
+#katello,adprice-brb,1343860926.13,*** adprice-brb is now known as adprice
+#katello,adprice-coffee,1343999235.19,*** adprice-coffee is now known as adprice-
+#katello,adprice-food,1343149089.73,*** adprice-food is now known as adprice
+#katello,adprice-gone,1343998616.35,*** adprice-gone is now known as adprice
+#katello,adprice-lunch,1344446106.31,*** adprice-lunch is now known as adprice
+#katello,adprice-mtg,1344456275.1,*** adprice-mtg is now known as adprice
+#katello,adprice-out,1344257219.51,*** adprice-out is now known as adprice
+#katello,adprice-weekend,1342824315.67,*** adprice-weekend is now known as adprice-gone
+#katello,adprice-wfh,1343845564.54,*** adprice-wfh is now known as adprice
+#katello,adprice_,1342466651.14,*** adprice_ <adprice_!adprice@nat/redhat/x-swdadmgkrvsmjrbe> has quit IRC (Remote host closed the connection)
+#katello,agouny,1342065361.41,*** agouny <agouny!agouny@nat/redhat/x-xyldnitfpnqzndko> has quit IRC (Remote host closed the connection)
+#katello,ahumbe,1343125396.98,*** ahumbe <ahumbe!ahumbe@nat/redhat/x-tcgzsnkumasxepct> has quit IRC (Ping timeout: 248 seconds)
+#katello,ahumbe_,1343134360.5,*** ahumbe_ <ahumbe_!ahumbe@nat/redhat/x-mjkdfryzonyrwjpg> has quit IRC (Quit: Leaving)
+#katello,al_laptop,1342705284.3,*** al_laptop <al_laptop!awood@nat/redhat/x-mywrpmwuxcoogixj> has quit IRC (Quit: Leaving)
+#katello,alikins,1342237366.83,*** alikins <alikins!~adrian@cpe-069-134-037-114.nc.res.rr.com> has quit IRC (Quit: alikins)
+#katello,alikins_,1343233447.03,*** alikins_ is now known as alikins_out
+#katello,alikins_out,1343659366.65,*** alikins_out is now known as alikins_in
+#katello,amos,1344354784.85,*** amos <amos!amos@nat/redhat/x-hpvthxkkolpkcvhy> has quit IRC (Ping timeout: 246 seconds)
+#katello,amos_,1344322601.14,*** amos_ <amos_!~Amos@bzq-79-182-223-63.red.bezeqint.net> has quit IRC (Ping timeout: 244 seconds)
+#katello,amos__,1339481098.72,*** amos__ <amos__!~Amos@109.67.230.186> has quit IRC (Quit: Leaving)
+#katello,amos_afk,1339633998.94,*** amos_afk <amos_afk!~Amos@bzq-109-67-230-186.red.bezeqint.net> has quit IRC (Read error: Connection reset by peer)
+#katello,ashward,1339682834.82,*** ashward <ashward!50ee018a@gateway/web/freenode/ip.80.238.1.138> has quit IRC (Quit: Page closed)
+#katello,aweiteka,1344455271.4,*** aweiteka <aweiteka!aweiteka@nat/redhat/x-pqbapqrjrzleytap> has joined #katello
+#katello,aweiteka_,1342472461.96,*** aweiteka_ <aweiteka_!aweiteka@nat/redhat/x-eyhqrshkilfjxzxk> has quit IRC (Client Quit)
+#katello,awood,1344438923.91,*** awood <awood!awood@nat/redhat/x-zduhwyprokpuhylx> has joined #katello
+#katello,awood_,1342442984.51,*** awood_ <awood_!awood@nat/redhat/x-xcuwkyhkvpugbylr> has quit IRC (Client Quit)
+#katello,ayakashi,1339900198.26,*** ayakashi is now known as fenris02
+#katello,bbuckingham,1344460221.57,"* bbuckingham thinks if it is an issue, partha will be able to solve it w/o a doubt"
+#katello,bbuckingham-afk,1343931200.98,*** bbuckingham-afk is now known as bbuckingham
+#katello,bbuckingham-gone,1339658270.99,*** bbuckingham-gone <bbuckingham-gone!~bbuckingh@99-178-170-2.lightspeed.rlghnc.sbcglobal.net> has quit IRC (Quit: Leaving)
+#katello,bbuckingham-hm,1341280127.21,*** bbuckingham-hm is now known as bbuckingham-hm-a
+#katello,bbuckingham-hm-a,1341280134.64,*** bbuckingham-hm-a is now known as bbuckingham-afk
+#katello,bbuckingham-lt,1339527735.74,*** bbuckingham-lt <bbuckingham-lt!bbuckingha@nat/redhat/x-xqinytvruziwfyqb> has quit IRC (Quit: Leaving)
+#katello,bbuckingham-mtg,1344288351.75,*** bbuckingham-mtg <bbuckingham-mtg!bbuckingha@nat/redhat/x-ibfxgpyhkfowakmf> has quit IRC (Quit: Leaving)
+#katello,bbuckingham-out,1339156007.59,*** bbuckingham-out is now known as bbuckingham
+#katello,bcrochet,1340980302.66,*** bcrochet <bcrochet!~bcrochet@cpe-069-134-221-134.nc.res.rr.com> has joined #katello
+#katello,beav,1344430948.02,*** beav <beav!beav@nat/redhat/x-wmxktlvecumyozqo> has quit IRC (Ping timeout: 244 seconds)
+#katello,beav-afk,1339597980.78,*** beav-afk is now known as beav
+#katello,beav-away,1342785978.64,*** beav-away is now known as beav
+#katello,beav-brb,1339596161.75,*** beav-brb is now known as beav
+#katello,beav-pto,1340368832.63,*** beav-pto is now known as beav
+#katello,beav1,1344460603.87,*** beav1 <beav1!beav@nat/redhat/x-vbuoivcpnajrdyjc> has quit IRC (Quit: WeeChat 0.3.7)
+#katello,bmclaugh,1340631612.49,*** bmclaugh <bmclaugh!~bmclaugh@cpe-173-095-171-043.nc.res.rr.com> has quit IRC (Read error: Connection reset by peer)
+#katello,bmclaughlin,1343854541.69,*** bmclaughlin <bmclaughlin!~bmclaughl@cpe-173-095-171-043.nc.res.rr.com> has quit IRC (Quit: Leaving)
+#katello,bmclaughlin_,1343059302.27,*** bmclaughlin_ <bmclaughlin_!~bmclaughl@cpe-173-095-171-043.nc.res.rr.com> has quit IRC (Client Quit)
+#katello,bmclaughlin|dr,1343668786.82,*** bmclaughlin|dr is now known as bmclaughlin
+#katello,bryan_kearney,1344454305.94,*** bryan_kearney <bryan_kearney!bkearney@nat/redhat/x-auikntnvyqijnfno> has quit IRC (Quit: Leaving.)
+#katello,bryan_kearney1,1344434176.6,*** bryan_kearney1 <bryan_kearney1!bkearney@nat/redhat/x-kqgsetruectxbsee> has quit IRC (Client Quit)
+#katello,choirboy,1344101120.58,*** choirboy <choirboy!~choirboy@67.11.170.25> has quit IRC (Client Quit)
+#katello,cliff-hm,1344462807.08,*** cliff-hm <cliff-hm!~cperry@027929a8.bb.sky.com> has quit IRC (Read error: Operation timed out)
+#katello,community,1340375324.33,*** community is now known as bbuckingham
+#katello,cperry-out,1339089087.09,*** cperry-out <cperry-out!cperry@nat/redhat/x-bltytrhpgufbbilg> has quit IRC (Quit: Leaving)
+#katello,cswiii,1344470172.3,*** cswiii <cswiii!~cswiii@balance.wiw.org> has joined #katello
+#katello,cswiii_inlaw_lun,1339516787.04,*** cswiii_inlaw_lun is now known as cswiii_lunch
+#katello,cswiii_lunch,1339524089.37,*** cswiii_lunch is now known as cswiii
+#katello,cswiii`,1342924425.39,*** cswiii` is now known as cswiii
+#katello,cwolfe,1343893455.38,*** cwolfe <cwolfe!~cwolfe@s66-76-78-13.lubb.tx.sta.suddenlink.net> has quit IRC (Ping timeout: 246 seconds)
+#katello,cwolfe_,1344459255.38,*** cwolfe_ <cwolfe_!~cwolfe@s66-76-78-13.lubb.tx.sta.suddenlink.net> has joined #katello
+#katello,darb,1344376191.47,"<darb> partha, lol... you hide it well, dude!"
+#katello,dav______,1343678418.86,*** dav______ <dav______!~davidd~@24.106.194.14> has quit IRC (Remote host closed the connection)
+#katello,david____,1343925452.65,*** david____ <david____!~davidd~@24.106.194.14> has quit IRC (Remote host closed the connection)
+#katello,davidd___,1344427500.43,*** davidd___ <davidd___!~davidd~@24.106.194.14> has joined #katello
+#katello,davidd`,1343991224.85,*** davidd` <davidd`!~davidd`@cpe-069-134-202-151.nc.res.rr.com> has quit IRC (Ping timeout: 240 seconds)
+#katello,davidd`_,1344356103.97,*** davidd`_ is now known as davidd`
+#katello,dawud,1344467247.4,*** dawud <dawud!~dawud@28.Red-83-39-150.dynamicIP.rima-tde.net> has quit IRC (Quit: leaving)
+#katello,dgao,1342019125.03,"*** dgao <dgao!dgao@nat/redhat/x-kwkhaimemizlytty> has quit IRC (Quit: to debug, please load the core file.)"
+#katello,dgoodwin,1344019172.9,*** dgoodwin <dgoodwin!dgoodwin@nat/redhat/x-yusmbvncskaqwtlc> has joined #katello
+#katello,dgoodwin_,1340696203.57,*** dgoodwin_ is now known as dgoodwin
+#katello,dj__,1339797680.61,*** dj__ is now known as ayakashi
+#katello,duerF,1344360316.46,*** duerF <duerF!~tommi@pat.ok.is> has quit IRC (Quit: Leaving)
+#katello,eanxgeek,1344448691.02,*** eanxgeek <eanxgeek!eanxgeek@nat/redhat/x-vuwdimbbipzaipld> has joined #katello
+#katello,eanxgeek_,1344252433.75,*** eanxgeek_ is now known as eanxgeek
+#katello,eanxgeek|droid,1339718703.34,*** eanxgeek|droid <eanxgeek|droid!~Eric@cpe-071-077-011-063.nc.res.rr.com> has quit IRC (Quit: -a-)
+#katello,eanxgeek|laptop,1342481968.46,*** eanxgeek|laptop <eanxgeek|laptop!~eanxgeek@cpe-071-077-011-063.nc.res.rr.com> has quit IRC (Client Quit)
+#katello,eanxgeek|out,1337773353.53,*** eanxgeek|out is now known as eanxgeek
+#katello,eck,1344373454.78,*** eck is now known as eck_gone
+#katello,eck_gone,1344431912.46,*** eck_gone is now known as eck
+#katello,ehelms,1344462931.78,*** ehelms is now known as ehelms-out
+#katello,ehelms-afk,1344448026.49,*** ehelms-afk is now known as ehelms
+#katello,ehelms-afkish,1344043580.96,*** ehelms-afkish is now known as ehelms
+#katello,ehelms-food,1339785364.47,*** ehelms-food is now known as ehelms
+#katello,ehelms-gone,1340629769.47,*** ehelms-gone is now known as ehelms
+#katello,ehelms-lnch,1343411140.01,*** ehelms-lnch is now known as ehelms
+#katello,ehelms-out,1344428278.78,*** ehelms-out is now known as ehelms
+#katello,ehelms-wknd,1343652754.36,*** ehelms-wknd is now known as ehelms
+#katello,ehelms_,1342874288.45,*** ehelms_ <ehelms_!63904241@gateway/web/freenode/ip.99.144.66.65> has quit IRC (Client Quit)
+#katello,eklavya,1337860767.56,*** eklavya is now known as aacharya
+#katello,esm,1342062124.24,*** esm is now known as Guest38641
+#katello,esm_,1341787927.11,*** esm_ <esm_!~esm@cpe-67-250-43-244.nyc.res.rr.com> has quit IRC (Ping timeout: 252 seconds)
+#katello,etank,1342097287.86,"*** etank <etank!~etank@twil/staff/etank> has parted #katello (""WeeChat 0.3.8"")"
+#katello,ewoud,1344019172.9,*** ewoud <ewoud!ekohl@2a02:1398:804:0:5054:ff:feff:9c77> has joined #katello
+#katello,fanatic,1337819530.41,*** fanatic <fanatic!~Fanatic@99-16-213-59.lightspeed.mlfrct.sbcglobal.net> has quit IRC (Read error: Connection reset by peer)
+#katello,fenris02,1343070669.41,*** fenris02 is now known as fenrus02
+#katello,fenrus02,1344403089.43,*** fenrus02 <fenrus02!~fenrus02@fedora/fenris02> has joined #katello
+#katello,fii1,1343808904.42,*** fii1 <fii1!~fii@cpc2-bmly8-2-0-cust332.2-3.cable.virginmedia.com> has parted #katello
+#katello,fluxx,1343012118.22,*** fluxx <fluxx!6303401d@gateway/web/freenode/ip.99.3.64.29> has quit IRC (Client Quit)
+#katello,geek_cl,1344139304.83,*** geek_cl <geek_cl!~lletelier@201-246-118-218.baf.movistar.cl> has quit IRC (Remote host closed the connection)
+#katello,ggruener,1344436024.75,*** ggruener <ggruener!~ggruener@ip-2-200-247-157.web.vodafone.de> has quit IRC (Quit: Konversation terminated!)
+#katello,ggruner,1340737255.77,*** ggruner is now known as ggruener
+#katello,ggruner_,1340528138.4,*** ggruner_ <ggruner_!~ggruener@dslb-094-217-123-224.pools.arcor-ip.net> has quit IRC (Ping timeout: 240 seconds)
+#katello,gibble,1341242734.17,*** gibble <gibble!~supybot@static-50-53-35-251.bvtn.or.frontiernet.net> has joined #katello
+#katello,gkhachik,1343395588.63,*** gkhachik <gkhachik!gkhachik@nat/redhat/x-raudnxvdwbaotped> has quit IRC (Quit: Leaving)
+#katello,gkhachik_,1342708077.08,*** gkhachik_ <gkhachik_!gkhachik@nat/redhat/x-dviermbtdlsbxjre> has quit IRC (Ping timeout: 245 seconds)
+#katello,gkhachik_kofe,1342439098.61,*** gkhachik_kofe is now known as gkhachik
+#katello,gkhachik_mtg,1342019397.09,*** gkhachik_mtg is now known as gkhachik
+#katello,gszasz,1344462973.59,*** gszasz <gszasz!~gszasz@109.80.139.117> has quit IRC (Quit: Ex-Chat)
+#katello,gszasz_,1343159787.37,*** gszasz_ <gszasz_!gszasz@nat/redhat/x-ofbvthmiffrzbufl> has quit IRC (Quit: Ex-Chat)
+#katello,gszasz_afk,1343041410.78,*** gszasz_afk is now known as gszasz
+#katello,gszasz_lunch,1343047397.89,*** gszasz_lunch <gszasz_lunch!~gszasz@109.80.139.117> has quit IRC (Quit: Ex-Chat)
+#katello,gszasz_mtg,1342082511.99,*** gszasz_mtg is now known as gszasz
+#katello,gujo,1344019172.87,*** gujo <gujo!johan@heizenberg.ds.karen.hj.se> has joined #katello
+#katello,gurudev,1337860670.27,*** gurudev is now known as eklavya
+#katello,hewbrocc`,1341847381.67,*** hewbrocc` <hewbrocc`!~user@173-161-197-249-Philadelphia.hfc.comcastbusiness.net> has quit IRC (Remote host closed the connection)
+#katello,hewbrocca,1341981463.29,*** hewbrocca <hewbrocca!~user@173-161-197-249-Philadelphia.hfc.comcastbusiness.net> has quit IRC (Remote host closed the connection)
+#katello,honestabe,1343942209.32,*** honestabe is now known as bbuckingham
+#katello,i0n,1344026638.83,*** i0n <i0n!~i0n@unaffiliated/evilsushi> has quit IRC (Quit: Lost terminal)
+#katello,imcleod,1343689762.73,*** imcleod <imcleod!~imcleod@99-55-151-66.lightspeed.cicril.sbcglobal.net> has quit IRC (Ping timeout: 250 seconds)
+#katello,inecas,1344459046.74,*** inecas <inecas!~inecas@ip-78-45-72-137.net.upcbroadband.cz> has quit IRC (Quit: Leaving)
+#katello,inecas_,1342713471.27,*** inecas_ <inecas_!inecas@nat/redhat/x-bhnfyfhfuczkyojc> has quit IRC (Remote host closed the connection)
+#katello,jbowes,1344019197.95,*** jbowes <jbowes!~jbowes@fedora/jbowes> has joined #katello
+#katello,jclift,1341879403.67,*** jclift <jclift!~jc@ppp118-209-236-165.lns20.mel6.internode.on.net> has quit IRC (Quit: jclift)
+#katello,jcoufal,1344458495.21,*** jcoufal <jcoufal!~jcoufal@ip-89-103-128-118.net.upcbroadband.cz> has quit IRC (Client Quit)
+#katello,jcoufal_,1343403413.36,*** jcoufal_ <jcoufal_!jcoufal@nat/redhat/x-kgnmhoybxnjngvlu> has quit IRC (Ping timeout: 272 seconds)
+#katello,jcoufal__,1343383897.83,*** jcoufal__ is now known as jcoufal
+#katello,jcoufal|afk,1344422036.9,*** jcoufal|afk is now known as jcoufal
+#katello,jeckersb,1344263401.28,*** jeckersb <jeckersb!jeckersb@nat/redhat/x-egcyaoamthlqhsna> has quit IRC (Ping timeout: 265 seconds)
+#katello,jimmac,1344444308.09,*** jimmac <jimmac!~jimmac@62.201.22.15> has joined #katello
+#katello,jimmac_,1340383684.46,*** jimmac_ <jimmac_!~jimmac@62.201.22.15> has quit IRC (Ping timeout: 245 seconds)
+#katello,jistr,1343828073.42,*** jistr <jistr!jistr@nat/redhat/x-kioicwbagfcznnln> has quit IRC (Quit: jistr)
+#katello,jistr_,1343827581.5,*** jistr_ <jistr_!jistr@nat/redhat/x-egvpeuwzsqqjpvuz> has quit IRC (Client Quit)
+#katello,jlaska,1344264946.54,*** jlaska <jlaska!jlaska@nat/redhat/x-dzluphvpilpshejr> has joined #katello
+#katello,jlaska_,1339208317.6,*** jlaska_ <jlaska_!jlaska@nat/redhat/x-fhimaxpzhyocsafq> has quit IRC (Ping timeout: 252 seconds)
+#katello,jmatthews,1344460833.33,*** jmatthews <jmatthews!jmatthews@nat/redhat/x-klaeabosrbnuwlcp> has quit IRC (Ping timeout: 245 seconds)
+#katello,jmatthews_,1340220348.53,*** jmatthews_ <jmatthews_!quassel@nat/redhat/x-csydxrhovqsnodlq> has quit IRC (Remote host closed the connection)
+#katello,jmatthews__,1340108177.25,*** jmatthews__ <jmatthews__!quassel@nat/redhat/x-zmjziafqqdwqccri> has quit IRC (Remote host closed the connection)
+#katello,jmolet,1340479610.33,*** jmolet <jmolet!~jmolet@cpe-066-026-091-217.nc.res.rr.com> has quit IRC (Quit: Leaving)
+#katello,jmontleon,1340324040.84,*** jmontleon <jmontleon!~jmontleon@pool-98-118-83-7.bstnma.fios.verizon.net> has quit IRC (Quit: Done)
+#katello,jmrodri,1344267758.36,<jmrodri> mccun934: that's gonna put a damper in it then :D /me does a test build
+#katello,jmrodri_,1344433350.22,*** jmrodri_ <jmrodri_!jmrodri@nat/redhat/x-glyacuttsycvkxlb> has quit IRC (Quit: My work is done here)
+#katello,jomara,1344367703.72,"<jomara> its off my front page now,"
+#katello,josedonizetti,1344453411.49,*** josedonizetti <josedonizetti!~Adium@186.192.87.33> has parted #katello
+#katello,josedonizetti1,1344446476.3,*** josedonizetti1 <josedonizetti1!~Adium@186.192.87.33> has parted #katello
+#katello,jpreston,1342640620.2,*** jpreston <jpreston!~Adium@66.193.93.3> has parted #katello
+#katello,jprovazn,1344432153.82,*** jprovazn <jprovazn!~jprovazn@ip-94-112-2-110.net.upcbroadband.cz> has quit IRC (Quit: Odcházím)
+#katello,jprovazn_,1344252261.48,*** jprovazn_ <jprovazn_!~jprovazn@ip-94-112-2-110.net.upcbroadband.cz> has quit IRC (Quit: Odcházím)
+#katello,jprovazn_afk,1342200065.39,*** jprovazn_afk is now known as jprovazn
+#katello,jprovazn_afl,1337874172.51,*** jprovazn_afl is now known as jprovazn_afk
+#katello,jprovazn_away,1344351647.58,*** jprovazn_away <jprovazn_away!jprovazn@nat/redhat/x-ruokmjpmflutejdv> has quit IRC (Quit: Leaving)
+#katello,jrist,1344468753.26,*** jrist is now known as jrist-afk
+#katello,jrist-afk,1344468776.61,<jrist-afk> cool
+#katello,jrist-brb,1344033403.36,*** jrist-brb is now known as jrist
+#katello,jrist-gym,1343417474.04,*** jrist-gym is now known as jrist
+#katello,jrist-gymk,1339009485.94,*** jrist-gymk is now known as jrist-gym
+#katello,jrist-lunch,1339526564.34,*** jrist-lunch is now known as jrist
+#katello,jrist-mtg,1344288308.45,*** jrist-mtg is now known as jrist
+#katello,jrist-out,1341366700.52,*** jrist-out <jrist-out!~jrist@75-166-180-120.hlrn.qwest.net> has quit IRC (Remote host closed the connection)
+#katello,jrist-retro,1339523455.83,*** jrist-retro is now known as jrist-mtg
+#katello,jrist-scrum,1339170539.39,*** jrist-scrum is now known as jrist
+#katello,jrist_,1344346734.43,*** jrist_ is now known as jrist
+#katello,jrsit,1343678048.11,*** jrsit is now known as jrist
+#katello,jsherrill,1344462929.74,*** jsherrill is now known as jsherrill_gone
+#katello,jsherrill_afk,1344359303.77,*** jsherrill_afk is now known as jsherrill
+#katello,jsherrill_gone,1344430449.58,*** jsherrill_gone is now known as jsherrill
+#katello,jsherrill_lunch,1337799741.98,*** jsherrill_lunch is now known as jsherrill
+#katello,jsherrill_mtg,1343927758.02,*** jsherrill_mtg is now known as jsherrill
+#katello,jstransk,1344443073.5,*** jstransk <jstransk!jistr@nat/redhat/x-undcbpfsyobxquge> has quit IRC (Quit: jstransk)
+#katello,jstransk-afk,1343989312.26,*** jstransk-afk is now known as jstransk
+#katello,jstransk_,1344424561.58,*** jstransk_ is now known as jstransk
+#katello,jstransk_afk,1343940161.7,*** jstransk_afk <jstransk_afk!~jistr@89.177.124.169> has quit IRC (Quit: jstransk_afk)
+#katello,jstransk|afk,1344415555.08,*** jstransk|afk is now known as jstransk
+#katello,jweiss,1344461838.38,*** jweiss <jweiss!~user@cpe-069-134-058-226.nc.res.rr.com> has quit IRC (Ping timeout: 276 seconds)
+#katello,jweiss-a_,1339678055.75,*** jweiss-a_ is now known as jweiss
+#katello,jweiss-afk,1339640738.55,*** jweiss-afk <jweiss-afk!~user@cpe-069-134-058-226.nc.res.rr.com> has quit IRC (Ping timeout: 240 seconds)
+#katello,jweiss_,1344266460.21,*** jweiss_ <jweiss_!~user@cpe-069-134-058-226.nc.res.rr.com> has quit IRC (Ping timeout: 244 seconds)
+#katello,karterkarlo,1343638039.39,*** karterkarlo <karterkarlo!5050f61f@gateway/web/freenode/ip.80.80.246.31> has parted #katello
+#katello,kbidarka,1344443852.77,*** kbidarka <kbidarka!kbidarka@nat/redhat/x-uezjlkwawhdnufwg> has quit IRC (Read error: Connection reset by peer)
+#katello,kbidarka_,1343125410.45,*** kbidarka_ <kbidarka_!kbidarka@nat/redhat/x-uitdaqhzvkhqpcty> has quit IRC (Ping timeout: 264 seconds)
+#katello,kbidarka__,1343154817.44,*** kbidarka__ <kbidarka__!kbidarka@nat/redhat/x-xaynhlybslexxtoi> has quit IRC (Ping timeout: 240 seconds)
+#katello,kbidarka_away,1339569013.12,*** kbidarka_away is now known as kbidarka_mtg
+#katello,kbidarka_mtg,1339572771.94,*** kbidarka_mtg <kbidarka_mtg!kbidarka@nat/redhat/x-rfkfwrgzzrcjybdb> has quit IRC (Quit: Leaving)
+#katello,kknigga,1340292081.33,*** kknigga <kknigga!~kknigga@38.104.242.210> has quit IRC (Quit: [BX] Life is like BitchX. Ya never know what yer gunna git.)
+#katello,komidore64,1342472632.25,*** komidore64 <komidore64!komidore64@nat/redhat/x-qeskxujvskeinnoq> has quit IRC (Quit: Leaving)
+#katello,kuduk,1344205398.02,*** kuduk <kuduk!u822@gateway/web/irccloud.com/x-ebbhisjimdokpgmj> has joined #katello
+#katello,kuduk_,1339453780.13,*** kuduk_ is now known as kuduk
+#katello,kylebaker,1342786183.3,*** kylebaker <kylebaker!kylebaker@nat/redhat/x-zosgalkajpyelkzh> has parted #katello
+#katello,kylebaker1,1340634615.21,*** kylebaker1 <kylebaker1!kylebaker@nat/redhat/x-jkjnkjthxemlzuam> has quit IRC (Read error: Connection reset by peer)
+#katello,lameprice,1344461720.86,*** lameprice is now known as adprice-out
+#katello,lsjostro,1344019172.89,*** lsjostro <lsjostro!~lsjostro@radicore.se> has joined #katello
+#katello,lsn,1344451898.64,*** lsn <lsn!0fcbe94c@gateway/web/freenode/ip.15.203.233.76> has quit IRC (Quit: Page closed)
+#katello,lzap,1344008137.86,*** lzap <lzap!~lzap@78-80-253-33.tmcz.cz> has quit IRC (Quit: Clicked on [X] button...)
+#katello,malguckn,1344429227.07,*** malguckn <malguckn!c325a6f6@gateway/web/freenode/ip.195.37.166.246> has quit IRC (Client Quit)
+#katello,matty_dubs,1344464236.52,*** matty_dubs <matty_dubs!mawagner@nat/redhat/x-rjvqhiwgsqwlmhrb> has quit IRC (Quit: Leaving)
+#katello,matty_dubs|brb,1344459649.43,*** matty_dubs|brb <matty_dubs|brb!mawagner@nat/redhat/x-ewhenvvphltqyfyw> has quit IRC (Quit: Leaving)
+#katello,matty_dubs|call,1343919989.5,*** matty_dubs|call is now known as matty_dubs
+#katello,matty_dubs|lunch,1344444431.3,*** matty_dubs|lunch is now known as matty_dubs
+#katello,matty_dubs|mtg,1344463206.36,*** matty_dubs|mtg is now known as matty_dubs
+#katello,matty_dubs|show,1343766448.91,*** matty_dubs|show is now known as matty_dubs
+#katello,mbacovsk,1344467838.02,*** mbacovsk <mbacovsk!~mbacovsk@fw218.topnet.cz> has quit IRC (Ping timeout: 244 seconds)
+#katello,mbacovsk_,1343822640.88,*** mbacovsk_ <mbacovsk_!mbacovsk@nat/redhat/x-hinwjegeqspueuch> has quit IRC (Ping timeout: 252 seconds)
+#katello,mbacovsk__,1344034467.07,*** mbacovsk__ <mbacovsk__!~mbacovsk@fw218.topnet.cz> has quit IRC ()
+#katello,mbacovsk_afk,1340739987.97,*** mbacovsk_afk is now known as mbacovsk
+#katello,mccun934,1344468804.69,<mccun934> perfect right?
+#katello,mccun935,1341001545.91,*** mccun935 is now known as mccun934
+#katello,mdemello,1344470432.13,*** mdemello <mdemello!~Marcelo@189.27.245.15.dynamic.adsl.gvt.net.br> has joined #katello
+#katello,mfalesni,1344448511.15,*** mfalesni <mfalesni!mfalesni@nat/redhat/x-xrrxkzdwpebuorru> has quit IRC (*.net *.split)
+#katello,mfalesni|afk,1344440321.36,*** mfalesni|afk is now known as mfalesni
+#katello,mfalesni|coffee,1344261798.94,*** mfalesni|coffee is now known as mfalesni
+#katello,mfalesni|lunch,1344339274.21,*** mfalesni|lunch is now known as mfalesni
+#katello,mfalesni|snack,1343818503.84,*** mfalesni|snack is now known as mfalesni
+#katello,mirek,1344265361.7,*** mirek <mirek!~mirek@194.27.broadband7.iol.cz> has quit IRC (Ping timeout: 252 seconds)
+#katello,mirek-,1344277075.51,*** mirek- is now known as mirek-hm
+#katello,mirek-afk,1343408442.54,*** mirek-afk is now known as mirek
+#katello,mirek-hm,1344458554.37,*** mirek-hm is now known as mirek-zzz
+#katello,mirek-tv,1343760964.63,*** mirek-tv is now known as mirek
+#katello,mirek-zzz,1343095624.88,*** mirek-zzz <mirek-zzz!~mirek@194.27.broadband7.iol.cz> has quit IRC (Read error: Connection reset by peer)
+#katello,mirek_,1344277071.32,*** mirek_ is now known as mirek-
+#katello,mirek|hm,1343195102.08,*** mirek|hm <mirek|hm!~mirek@194.27.broadband7.iol.cz> has quit IRC (Ping timeout: 245 seconds)
+#katello,mirek|wfh,1342555138.48,*** mirek|wfh <mirek|wfh!~mirek@194.27.broadband7.iol.cz> has quit IRC (*.net *.split)
+#katello,mirek|zzz,1342509571.02,*** mirek|zzz is now known as mirek|wfh
+#katello,mizmo,1341635858.56,*** mizmo <mizmo!~duffy@fedora/mizmo> has parted #katello
+#katello,mmello,1344469567.33,*** mmello <mmello!~Marcelo@189.27.244.7.dynamic.adsl.gvt.net.br> has quit IRC (Ping timeout: 240 seconds)
+#katello,mmello|lunch,1337790245.7,*** mmello|lunch is now known as mmello
+#katello,morazi,1344465929.83,*** morazi <morazi!morazi@nat/redhat/x-nuogekidbjgaeqaz> has quit IRC (Quit: Ex-Chat)
+#katello,mortsa,1344019172.87,*** mortsa <mortsa!~mortsa@login.redpill-linpro.com> has joined #katello
+#katello,mrao,1344461908.29,*** mrao <mrao!Adium@nat/redhat/x-pmakxhqzsalhmjji> has quit IRC (Ping timeout: 245 seconds)
+#katello,mrao1,1343228519.98,*** mrao1 <mrao1!Adium@nat/redhat/x-uerecjswabwncifu> has quit IRC (Quit: Leaving.)
+#katello,ms-test,1340357712.25,*** ms-test <ms-test!58661bc2@gateway/web/freenode/ip.88.102.27.194> has quit IRC (Client Quit)
+#katello,mstead,1344298652.13,*** mstead <mstead!~mstead@blk-7-205-62.eastlink.ca> has joined #katello
+#katello,mstead-out,1340218884.89,*** mstead-out is now known as mstead
+#katello,mstead1,1340884988.95,*** mstead1 <mstead1!~mstead@blk-7-205-62.eastlink.ca> has quit IRC (Ping timeout: 246 seconds)
+#katello,msuchy,1344349473.67,*** msuchy is now known as msuchy-out
+#katello,msuchy-afk,1337772722.64,*** msuchy-afk is now known as msuchy
+#katello,msuchy-out,1344331218.84,*** msuchy-out is now known as msuchy
+#katello,not_alikins,1340397759.57,*** not_alikins <not_alikins!alikins@nat/redhat/x-dodgsaczittcfkwb> has quit IRC (Ping timeout: 245 seconds)
+#katello,nudnik,1343941952.05,"<nudnik> ehelms: #1 is http://theforeman.org/issues/show/1 ""Foreman - Feature #1: Ldap/AD authentication - Foreman"""
+#katello,nudnik_,1344323991.53,*** nudnik_ is now known as nudnik
+#katello,ohadlevy,1344261397.77,"<ohadlevy> jrist: foreamn has no bugs, I dont know what you are talking about"
+#katello,omaciel,1344450819.9,<omaciel> man... this may be a bit too much work right now...
+#katello,omaciel-lunch,1340826635.33,*** omaciel-lunch is now known as omaciel
+#katello,omaciel-mtg,1344450594.0,*** omaciel-mtg is now known as omaciel
+#katello,omaciel-out,1343945564.95,*** omaciel-out is now known as omaciel
+#katello,omaciel_,1337957327.08,*** omaciel_ is now known as omaciel
+#katello,partha,1344460272.26,<partha> :)
+#katello,partha-afk,1344446123.27,*** partha-afk is now known as partha
+#katello,partha-bbl,1342460613.0,*** partha-bbl is now known as partha
+#katello,parthasaurus,1344376229.57,*** parthasaurus is now known as partha
+#katello,parthogen,1344442062.43,*** parthogen <parthogen!~Adium@108-94-104-181.lightspeed.rlghnc.sbcglobal.net> has quit IRC (Quit: Leaving.)
+#katello,parthogen1,1343428808.96,*** parthogen1 is now known as parthogen
+#katello,patr|ck,1340468894.09,"*** patr|ck <patr|ck!~patrick@pD9F8911B.dip.t-dialin.net> has parted #katello (""Leaving"")"
+#katello,patr|ck_,1340216103.85,*** patr|ck_ is now known as patr|ck
+#katello,pblaho,1344238096.79,*** pblaho <pblaho!pblaho@nat/redhat/x-ybsjcaddmlhlxnzh> has quit IRC (Quit: Konversation terminated!)
+#katello,pblaho_,1343939625.12,*** pblaho_ <pblaho_!~pblaho@89.177.60.13> has quit IRC (Client Quit)
+#katello,pblaho|away,1343992701.9,*** pblaho|away is now known as pblaho
+#katello,pchalupa,1344436217.99,*** pchalupa <pchalupa!pchalupa@nat/redhat/x-kribhqcryduhwydy> has quit IRC (Quit: Leaving)
+#katello,pchalupa-afk,1342444964.65,*** pchalupa-afk is now known as pchalupa
+#katello,pchalupa-clone,1342630736.58,*** pchalupa-clone <pchalupa-clone!~pchalupa@ip-94-112-79-231.net.upcbroadband.cz> has parted #katello
+#katello,pchalupa_,1342011984.31,*** pchalupa_ <pchalupa_!pchalupa@nat/redhat/x-fdjxilppqnknkzxc> has quit IRC (Client Quit)
+#katello,ppokorny,1344437654.98,*** ppokorny <ppokorny!ppokorny@nat/redhat/x-ovzegfxgabfasvkx> has quit IRC (Quit: Leaving)
+#katello,ppokorny_,1343996337.31,*** ppokorny_ <ppokorny_!ppokorny@nat/redhat/x-tuyuvgutahyoogub> has quit IRC (Quit: Leaving)
+#katello,prad,1344461692.7,*** prad <prad!prad@nat/redhat/x-tihndxcvlpyqklci> has quit IRC (Quit: Leaving)
+#katello,prad_,1344426686.85,*** prad_ <prad_!~prad@cpe-065-190-067-130.nc.res.rr.com> has quit IRC (Read error: Operation timed out)
+#katello,prad__,1343404751.07,*** prad__ <prad__!~prad@cpe-065-190-067-130.nc.res.rr.com> has quit IRC (Read error: Connection reset by peer)
+#katello,preethi,1344452101.3,*** preethi <preethi!~pthomas@cpe-174-097-226-167.nc.res.rr.com> has joined #katello
+#katello,preethi_afk,1342455752.47,*** preethi_afk is now known as preethi
+#katello,preethi_bbl,1343084308.97,*** preethi_bbl <preethi_bbl!~pthomas@cpe-174-097-226-167.nc.res.rr.com> has quit IRC (Ping timeout: 248 seconds)
+#katello,preethi_brb,1343309683.33,*** preethi_brb <preethi_brb!~pthomas@cpe-174-097-226-167.nc.res.rr.com> has quit IRC (Quit: Leaving)
+#katello,preethi_lt,1343216416.49,*** preethi_lt <preethi_lt!~pthomas@cpe-174-097-226-167.nc.res.rr.com> has quit IRC (Ping timeout: 255 seconds)
+#katello,preethi_pto,1340892701.01,*** preethi_pto is now known as preethi
+#katello,radprice,1343684140.74,*** radprice is now known as adprice-out
+#katello,ranveer,1341320992.77,*** ranveer <ranveer!spandey@nat/redhat/x-cdshsgoqppdvixdx> has quit IRC (Quit: Leaving)
+#katello,realuser,1339608501.81,*** realuser is now known as bbuckingham
+#katello,red_alert,1341355477.02,*** red_alert <red_alert!red_alert@pdpc/supporter/silver/redalert> has quit IRC (Ping timeout: 245 seconds)
+#katello,red_beard,1344346605.96,*** red_beard <red_beard!~redbeard@fsf/member/thebeardisred> has quit IRC (Remote host closed the connection)
+#katello,riffraff,1339188952.26,*** riffraff is now known as riffraff169
+#katello,riffraff169,1340712669.99,*** riffraff169 <riffraff169!~riffraff@cpe-024-211-222-214.nc.res.rr.com> has quit IRC (Ping timeout: 255 seconds)
+#katello,riffraff1691,1339316929.91,*** riffraff1691 <riffraff1691!~riffraff@cpe-024-211-222-214.nc.res.rr.com> has quit IRC (Read error: Connection reset by peer)
+#katello,rwsu,1344386539.99,*** rwsu is now known as rwsu-away
+#katello,rwsu-afk,1339111331.89,*** rwsu-afk is now known as rwsu
+#katello,rwsu-away,1344439918.8,*** rwsu-away is now known as rwsu
+#katello,rwsu-biab,1337803928.42,*** rwsu-biab <rwsu-biab!~rwsu@64.9.241.195> has quit IRC (Ping timeout: 240 seconds)
+#katello,sadprice,1343427446.44,*** sadprice is now known as sadprice-out
+#katello,sadprice-out,1343650903.81,*** sadprice-out is now known as adprice
+#katello,samkottl1r,1344439621.69,*** samkottl1r <samkottl1r!~samkottle@44.sub-174-254-194.myvzw.com> has quit IRC (Ping timeout: 256 seconds)
+#katello,samkottl_,1342472040.6,*** samkottl_ <samkottl_!~textual@static-96-246-218-194.nycmny.fios.verizon.net> has quit IRC (Read error: Connection reset by peer)
+#katello,samkottler,1344466908.33,*** samkottler <samkottler!~samkottle@redhat/samkottler> has quit IRC (Ping timeout: 276 seconds)
+#katello,samkottler1,1343338820.46,*** samkottler1 <samkottler1!~samkottle@74.203.127.2> has quit IRC (Read error: Connection reset by peer)
+#katello,samkottler_,1343076382.64,*** samkottler_ <samkottler_!42bbe9cb@gateway/web/freenode/ip.66.187.233.203> has quit IRC (Client Quit)
+#katello,samkottler|afk,1344426384.78,*** samkottler|afk is now known as samkottler
+#katello,samkottler|away,1343263207.69,*** samkottler|away is now known as samkottler
+#katello,samkottler|call,1343829594.18,*** samkottler|call is now known as samkottler
+#katello,samkottler|coffe,1343820882.46,*** samkottler|coffe is now known as samk|coffee
+#katello,samkottler|food,1344364459.97,*** samkottler|food is now known as samkottler
+#katello,samkottler|grub,1344276928.0,*** samkottler|grub is now known as samkottler
+#katello,samkottler|gym,1343575398.86,*** samkottler|gym is now known as samkottler
+#katello,samkottler|run,1343874003.81,*** samkottler|run is now known as samkottler
+#katello,samk|coffee,1343822939.02,*** samk|coffee is now known as samkottler|call
+#katello,sander,1338209309.45,*** sander <sander!~sander@kantoor.oxilion.nl> has joined #katello
+#katello,sander_,1338208039.5,*** sander_ <sander_!~sander@kantoor.oxilion.nl> has quit IRC (Ping timeout: 260 seconds)
+#katello,sayli,1344439848.31,*** sayli <sayli!~skarmark_@c-76-104-188-172.hsd1.wa.comcast.net> has joined #katello
+#katello,sayli-afk,1343968299.83,*** sayli-afk <sayli-afk!~skarmark_@c-76-104-188-172.hsd1.wa.comcast.net> has quit IRC (Quit: Leaving)
+#katello,sayli_,1340085197.17,*** sayli_ <sayli_!~skarmark_@c-76-104-188-172.hsd1.wa.comcast.net> has quit IRC (Quit: Leaving)
+#katello,science_gone_ba1,1343938766.37,*** science_gone_ba1 <science_gone_ba1!~Adium@165.212.161.131> has quit IRC (Quit: Leaving.)
+#katello,science_gone_bad,1344468002.81,*** science_gone_bad <science_gone_bad!~bwlundber@165.212.161.131> has quit IRC (Quit: Leaving)
+#katello,segfault,1342977050.56,*** segfault is now known as Guest79045
+#katello,segfault923,1344429969.29,*** segfault923 <segfault923!~dgao@cpe-174-097-232-149.nc.res.rr.com> has joined #katello
+#katello,segfood,1339783391.06,*** segfood is now known as segfault923
+#katello,sg,1344264946.54,*** sg <sg!sg@nat/redhat/x-huflufikwxtwmrhy> has joined #katello
+#katello,sg_,1344115448.55,*** sg_ <sg_!sg@nat/redhat/x-paeblbzqhvivpzoa> has quit IRC (Read error: Operation timed out)
+#katello,sg__,1344106755.34,*** sg__ <sg__!sg@nat/redhat/x-zrykcrpslegaxhys> has quit IRC (Ping timeout: 272 seconds)
+#katello,sghai,1343997993.76,*** sghai <sghai!~sghai@219.64.187.245> has quit IRC (Quit: Leaving)
+#katello,sghai_,1342018875.8,*** sghai_ <sghai_!sghai@nat/redhat/x-aejsdknbmmhnifii> has quit IRC (Quit: Leaving)
+#katello,sghai__,1342003346.37,*** sghai__ <sghai__!sghai@nat/redhat/x-evpinvutavfjplbc> has quit IRC (Read error: Connection reset by peer)
+#katello,shadower,1340183875.69,*** shadower <shadower!tsedovic@nat/redhat/x-pgnurdobnfkwajso> has parted #katello
+#katello,shadower1g0n3,1337927739.39,*** shadower1g0n3 is now known as shadower
+#katello,shadower|g0n3,1338538531.95,*** shadower|g0n3 is now known as shadower
+#katello,shughes,1344355423.01,*** shughes <shughes!shughes@nat/redhat/x-faqpwieitnzmrrnh> has quit IRC (Client Quit)
+#katello,shughes_,1339503425.04,*** shughes_ <shughes_!~shughes@cpe-065-190-178-163.nc.res.rr.com> has parted #katello
+#katello,skarmark,1342648090.21,*** skarmark <skarmark!~skarmark_@c-76-104-188-172.hsd1.wa.comcast.net> has quit IRC (Remote host closed the connection)
+#katello,skirk,1344365655.12,*** skirk <skirk!~StuartMI@pdpc/supporter/professional/stuartmi> has quit IRC (Ping timeout: 265 seconds)
+#katello,slagle,1344019172.88,*** slagle <slagle!slagle@nat/redhat/x-nozymswgvtngabzq> has joined #katello
+#katello,slagle_,1340369517.63,*** slagle_ <slagle_!~slagle@69-69-183-46.skybest.com> has quit IRC (Client Quit)
+#katello,spandey,1344435005.21,*** spandey <spandey!spandey@nat/redhat/x-gympsoueogjefumz> has quit IRC (Quit: Leaving)
+#katello,spandey_,1343125402.06,*** spandey_ <spandey_!spandey@nat/redhat/x-oskwjoshtdicznwk> has quit IRC (Ping timeout: 245 seconds)
+#katello,spandey__,1343136643.87,*** spandey__ <spandey__!spandey@nat/redhat/x-mvsysfkkjrdvhbdo> has quit IRC (Quit: Leaving)
+#katello,sparklepony,1343170110.37,*** sparklepony is now known as samkottler
+#katello,stbenjam,1343830620.15,*** stbenjam <stbenjam!stbenjam@nat/redhat/x-scoaaqxhmerpbpbz> has joined #katello
+#katello,stbenjam_,1338826718.51,*** stbenjam_ <stbenjam_!stbenjam@nat/redhat/x-rjtvawboctdpjbzy> has quit IRC (Ping timeout: 240 seconds)
+#katello,stukirk,1344366562.31,*** stukirk <stukirk!~StuartMI@pdpc/supporter/professional/stuartmi> has quit IRC (Ping timeout: 268 seconds)
+#katello,swygue,1339392605.26,*** swygue <swygue!~swygue@ool-18bfce67.dyn.optonline.net> has quit IRC (Ping timeout: 244 seconds)
+#katello,tawster,1344290206.2,*** tawster <tawster!~tawster@cpe-075-189-234-110.nc.res.rr.com> has quit IRC (Quit: Leaving)
+#katello,tawster_,1342812248.35,*** tawster_ <tawster_!~tawster@cpe-075-189-234-110.nc.res.rr.com> has quit IRC (Quit: Leaving)
+#katello,thomasckay,1340385857.0,*** thomasckay is now known as bbuckingham
+#katello,thomasmckay,1344466169.24,<thomasmckay> mccun934: gibble... on github... doooo it
+#katello,thomasmckay_,1343410701.72,*** thomasmckay_ <thomasmckay_!~tomckay@108-203-4-222.lightspeed.rlghnc.sbcglobal.net> has quit IRC (Quit: Leaving)
+#katello,tittof,1344019172.87,*** tittof <tittof!tittof@217.115.132.146> has joined #katello
+#katello,tjikkun_work,1344007917.12,*** tjikkun_work <tjikkun_work!~tjikkun@2a00:d10:2:1:a6ba:dbff:fef3:f431> has quit IRC (Quit: Ex-Chat)
+#katello,tkep1008,1343328141.1,*** tkep1008 <tkep1008!d185231a@gateway/web/freenode/ip.209.133.35.26> has quit IRC (Client Quit)
+#katello,tsanders,1344460839.21,*** tsanders <tsanders!tsanders@nat/redhat/x-cbhadjwnjgjkhmjc> has quit IRC (Ping timeout: 272 seconds)
+#katello,tsanders-physica,1339091962.56,*** tsanders-physica is now known as tsanders
+#katello,tsanders_,1342727976.3,*** tsanders_ <tsanders_!tsanders@nat/redhat/x-tvmlokduwsbydtkz> has quit IRC (Ping timeout: 276 seconds)
+#katello,tsirj,1344019172.88,*** tsirj <tsirj!tsirj@nat/redhat/x-ymebchflnbckkopi> has joined #katello
+#katello,tstrachota,1344439111.17,*** tstrachota <tstrachota!tstracho@nat/redhat/x-fttkwxpvlxvpugpl> has quit IRC (Quit: Leaving)
+#katello,tstrachota_,1343748144.11,*** tstrachota_ <tstrachota_!tstracho@nat/redhat/x-qkglflzwcsvddsah> has quit IRC (Quit: Leaving)
+#katello,tstrachota|lunch,1342693461.66,*** tstrachota|lunch <tstrachota|lunch!tstracho@nat/redhat/x-vcktvyxixrljyfqb> has quit IRC (Quit: Leaving)
+#katello,utoh,1341953344.64,*** utoh is now known as StuartMI
+#katello,vvaldez,1343437768.16,*** vvaldez <vvaldez!~vvaldez@cpe-66-68-183-206.austin.res.rr.com> has quit IRC (Ping timeout: 244 seconds)
+#katello,witlessb,1344446458.35,*** witlessb <witlessb!~wb@194.42.230.106> has quit IRC (Ping timeout: 245 seconds)
+#katello,witlessb1,1340712234.2,*** witlessb1 <witlessb1!~wb@broadband-95-84-177-169.nationalcablenetworks.ru> has quit IRC (Ping timeout: 246 seconds)
+#katello,witlessb_,1343892693.36,*** witlessb_ <witlessb_!~wb@92.40.253.172.threembb.co.uk> has quit IRC (Read error: Connection reset by peer)
+#katello,wottop,1344264946.53,*** wottop <wottop!wpoteat@nat/redhat/x-jzqlzmioirokwegd> has joined #katello
+#katello,wottop_laptop,1342705233.84,*** wottop_laptop <wottop_laptop!wpoteat@nat/redhat/x-ialozvpwqmousipe> has quit IRC (Quit: Leaving)
+#katello,wottop|appt,1341930308.78,*** wottop|appt is now known as wottop
+#katello,wottop|pto,1338290630.62,*** wottop|pto <wottop|pto!wpoteat@nat/redhat/x-zjuozyjlpmythyyz> has quit IRC (Remote host closed the connection)
+#katello,wpoteat_,1340391608.59,*** wpoteat_ is now known as wottop-pto
+#katello,zarrian,1338908359.39,*** zarrian <zarrian!~zarrian@c-67-172-250-157.hsd1.ut.comcast.net> has quit IRC (Ping timeout: 245 seconds)
+#katello,zarrian_,1338431750.43,*** zarrian_ <zarrian_!~zarrian@h66.222.190.173.static.ip.windstream.net> has quit IRC (Quit: zarrian_)
+#katello,zeus-lt__,1344365051.03,*** zeus-lt__ <zeus-lt__!~jmrodri@cpe-076-182-038-059.nc.res.rr.com> has quit IRC (Quit: My work is done here)
+#mmccune,1,1337093906.0,*** mmccune <mmccune!~mmccune@ovpn-113-62.phx2.redhat.com> has quit IRC (Quit: leaving)
+#mmccune,<last>,1337731931.03,*** elbbig <elbbig!~supybot@ovpn-113-119.phx2.redhat.com> has quit IRC (Client Quit)
+#mmccune,elbbig,1337731931.03,*** elbbig <elbbig!~supybot@ovpn-113-119.phx2.redhat.com> has quit IRC (Client Quit)
+#mmccune,gibble,1337727166.25,*** gibble <gibble!~supybot@ovpn-113-119.phx2.redhat.com> has joined #mmccune
+#mmccune,gibz,1336759033.23,*** gibz <gibz!~pid-7387@ovpn-113-62.phx2.redhat.com> has quit IRC (Remote host closed the connection)
+#mmccune,mmccune,1337728825.04,<mmccune> elbbig: bark
+#mmccune,mmccune_,1336758102.18,*** mmccune_ <mmccune_!~mmccune@ovpn-113-62.phx2.redhat.com> has joined #mmccune
+#mmccune,mmccune_afk,1337720230.65,*** mmccune_afk is now known as mmccune
+#mmccune,mmccune_mtg,1337717891.35,*** mmccune_mtg is now known as mmccune_afk
+#mmmccune2,1,1336769559.11,*** mmccune <mmccune!~mmccune@ovpn-113-62.phx2.redhat.com> has quit IRC (Quit: Leaving)
+#mmmccune2,<last>,1337722550.6,*** gibble <gibble!~supybot@ovpn-113-119.phx2.redhat.com> has joined #mmmccune2
+#mmmccune2,gibble,1337722550.6,*** gibble <gibble!~supybot@ovpn-113-119.phx2.redhat.com> has joined #mmmccune2
+#mmmccune2,mmccune,1336769559.11,*** mmccune <mmccune!~mmccune@ovpn-113-62.phx2.redhat.com> has quit IRC (Quit: Leaving)
+#mmmccune2,mmccune_afk,1336768643.68,*** mmccune_afk is now known as mmccune
