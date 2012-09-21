@@ -15,3 +15,6 @@ INFO 2012-08-09T00:16:21 supybot Killing Irc objects.
 INFO 2012-08-09T00:16:21 supybot Writing registry file to gibble.conf
 INFO 2012-08-09T00:16:21 supybot Finished writing registry file.
 INFO 2012-08-09T00:16:21 supybot Shutdown complete.
+INFO 2012-09-21T13:31:42 supybot Creating new Irc for freenode.
+INFO 2012-09-21T13:31:42 supybot Connecting to irc.freenode.net:6667.
+INFO 2012-09-21T13:31:42 supybot Loading plugins (connecting to freenode).
